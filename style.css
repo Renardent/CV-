@@ -1,0 +1,10 @@
+#my-image {
+    width: 40vw;
+}
+
+.image {
+    background-image: url(./img/Photo.JPG);
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    object-fit: cover;
+}
