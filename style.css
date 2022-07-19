@@ -24,6 +24,7 @@
     right: 0;
     background-color:whitesmoke;
     font-size: 18px;
+    text-shadow: 3px 5px 6px rgb(80, 74, 74);
   }
 
 .right p {
