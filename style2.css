@@ -1,0 +1,25 @@
+.name {
+    width:100%;
+    height:180px;
+    margin: 0px;
+    
+    background-color: whitesmoke;
+    color: black;
+    font-family: "Arima", sans-serif;
+    font-weight:300;
+    text-align: center;
+    line-height:200px;
+    font-size: 3.5em;
+    
+    transition:all 0.8s ease;
+}
+
+.name:hover {
+    background-color: black;
+    color:whitesmoke;
+}
+
+.me,.educ,.exp {
+    font-size: 18px;
+    padding: 5px;
+}

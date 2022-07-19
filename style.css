@@ -1,10 +1,80 @@
-#my-image {
-    width: 40vw;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Ibarra Real Nova, sans-serif;
 }
 
-.image {
-    background-image: url(./img/Photo.JPG);
-    border-radius: 50%;
-    border: 2px solid whitesmoke;
-    object-fit: cover;
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
+
+.left {
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+  }
+  
+.right {
+    right: 0;
+    background-color:whitesmoke;
+    font-size: 18px;
+  }
+
+.right p {
+    padding: 5px;
+}
+
+.right h2 {
+    border: 2px dotted black;
+    border-radius: 30%;
+    padding: 2px 2px;
+    margin: 0 240px;
+}
+
+
+.image {
+    width: 300px;
+    height: 300px;
+
+    background-image: url(./img/Photo-mine3.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: static;
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+    padding: 30px;
+    margin: 10px auto;
+}
+
+.contact {
+    margin-bottom: 5px;
+    
+}
+
+.skill {
+    padding-top: 10px;
+}
+
+ h2 {
+    font-family: Arima, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    text-align: justify;
+    list-style-type:disc;
+    padding-left: 28%;
+    padding-right: 28%;
+    font-size: 18px;
+   }
+
+
+
